@@ -1,2 +1,2 @@
-# icarus3350
+# Escape from Icarus
 An ARPG mobile game
