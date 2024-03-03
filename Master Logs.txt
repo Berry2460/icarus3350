@@ -1,0 +1,1299 @@
+﻿Group Meeting Log
+
+
+May 30, 2022        Meeting Lasted: 1 hour 30 mins
+Attendance: All. Tristan stayed for 20 mins due to no internet
+Meeting for iteration 1. Created Developer Tasks from detailed user stories and chose big stories to implement.
+
+
+May 31, 2022        Meeting Lasted: 3 hours 30 mins
+Attendance: All. Tristan stayed for 20 mins due to no internet
+Meeting for iteration 1. Created project and git repository, set coding standard and assigned developer tasks. Got LibGDX to work on Android Studio
+
+
+June 5, 2022        Meeting Lasted: 30 mins
+Attendance: All
+Quick meeting on developer tasks.
+
+
+June 9, 2022        Meeting Lasted: 2 hours 20 mins
+Attendance: All
+Meeting for iteration 1. Team lead election. General timeline set to finish parts for iteration 1. Decide on smaller project scope and go over things needed for iteration 1. Discuss how to fix some errors found in the project.
+
+
+June 12, 2022        Meeting Lasted: 2 hours 40 mins
+Attendance: All
+Meeting for iteration 1. Discuss any blockages, progress and scope for iteration 1. Fixed up other errors on GitHub.
+
+
+June 14, 2022        Meeting Lasted: 20 mins (after class)
+Attendance: All except Tristan
+Quick discussion and clarification on some parts in iteration 1 after class
+
+
+June 15, 2022        Meeting Lasted: 6 hours 30 mins
+Attendance: All
+Discussed any blockages. No more implementations at this point, fixed any other code that needed to be fixed. Merged everyone’s branches together. Got rid of any dead/commented out code. Went through the code one by one as a group to fix the coding format of all into the coding standard. Updated README.md, log files, developer tasks. 
+
+
+June 16, 2022        Meeting Lasted: 4 hours
+Attendance: All
+Writing up and finishing any final documentations for the iteration 1 submission. Writing up extra object tests.
+
+
+June 28, 2022        Meeting Lasted: 45 mins
+Attendance: All
+Discussed features that will be implemented in Iteration 2 and iteration 3.. Assigned tasks to everyone. Decided on priority of the tasks for iteration 2. Scheduled next meeting to finalize assets.
+
+
+June 30, 2022        Meeting Lasted: 1 hour
+Attendance: All
+Went over iteration 1 feedback. Compiled any questions we wanted to ask about and discussed what things to fix in the code and add for iteration 2 based on the feedback.
+
+
+July 2, 2022        Meeting Lasted: 30 mins
+Attendance: Ryan, Ying, Agape
+Was supposed to vote on assets, but not everyone attended.
+Discussed how there were not enough assets for a sci-fi theme. Decided it might be best to just use medieval/fantasy themed assets instead. To discuss with the rest of the team.
+
+
+July 5, 2022        Meeting Lasted: 2 hours 30 mins
+Attendance: All
+Assets changed to medieval/fantasy themes and final assets chosen.
+Reviewed Tristan’s big branch of changes together then merged with master. Decided when to meet Professor Braico to ask questions and sent an email.
+
+
+July 7, 2022        Meeting Lasted: 1 hour
+Attendance: Ying, Agape and Tristan (Tristan had to leave after waiting)
+Talked with Professor Braico about iteration 1 and 2.
+Points:
+* We should detach the library from our code unless it’s in the presentation layer
+* The comment about enums, current enum didn't really make sense and seemed to have unrelated things together i.e. character and wall/door shouldn't be in the same enum
+* Enums if/else and switch cases suggestions on different ways to do it. I.e. array 
+* World and level is like looping back together. Both have information about each other so no point in abstract class
+* Iteration 3 testing will include UI testing. Essentially we will give fake inputs allowing us to test that the UI/menus work.
+
+
+July 9, 2022        Meeting Lasted: 5 hours
+Attendance: All
+* Merged bunch of branches, fixed and refactored quite a few of the code
+* Fixed the Screen enums and if/else case
+* Changed the settings button asset
+* Unlinked several gdx stuff from anything other than the presentation layer
+* Fixed test folder
+* Made changes to the unit tests that weren’t working due to code refactor
+* Fixed assets folder, cleaned up names and organization
+July 10, 2022        Meeting Lasted: 2 hours 30 mins
+Attendance: Ryan, Ying, Agape, Tanisha
+* Refactor a bunch of our code. Fixed up some more of the object and logic code
+* Merged database things and added music to the database
+* README.md changed description a little
+
+
+July 11, 2022        Meeting Lasted: 6 hours
+Attendance: All
+* Added more unit tests
+* Fixed up some bugs in the code
+* README.md
+* Updated User Stories/dev tasks
+* Logs
+* Went through the code and fixed the styles. Got rid of empty/unused code
+
+
+July 16, 2022        Meeting Lasted: 45 mins
+Attendance: All
+* Went over general timeline for iteration 3
+* Went over remaining dev tasks to accomplish for iteration 3
+* Went over fixes left from iteration 2
+
+
+July 21, 2022        Meeting Lasted: 20 mins
+Attendance: All
+* Checked dev tasks still remaining and everyone’s progress on it
+* Decided when to finish all the dev tasks by so everyone can get together and go over coding style in code
+
+
+July 26, 2022        Meeting Lasted: 5 hours 30 mins
+Attendance: All
+* Tried to get Espresso to work (could not be added)
+* Added a few changes/new unit tests
+* Fixed up several features after merging with everyone’s work
+* Refactored code
+
+
+July 27, 2022        Meeting Lasted: 4 hours
+Attendance: All
+* Added Integration testing
+* Added Acceptance testing
+* Updated README.md
+* Added unit tests
+* Added boss to the game
+* Updated dev task and user stories
+* Nuked textures and other unused code
+
+
+July 28, 2022        Meeting Lasted: 5 Hours
+Attendance: All
+* Added more integration tests
+* Updated acceptance testing
+* Updated dev logs and dev tasks
+* Coding style check
+
+
+Agape’s Developer Logs
+
+
+May 30, 2022        1 hour 30 mins
+Attended group meeting
+
+
+May 31, 2022        3 hour 30 mins
+Attended group meeting
+
+
+June 5, 2022        30 mins
+Attended group meeting
+
+
+June 7, 2022        3 hours
+Started design plans for the start menu, ingame menu (during gameplay when there is a small pause), other menus i.e. settings and basic ui setup idea. Looked into tutorials and learning for libgdx, specifically menu implementation.
+
+
+June 9, 2022        2 hour 30 mins
+Attended group meeting
+
+
+June 11, 2022        5 hours
+Started creating Menu Screen, Splash Screen (loading screen), and Game Screen. Implemented buttons in the main menu. Got a sample menu assets from the libgdx library (not the final asset). Trying to connect the buttons to the actual game.
+
+
+June 12, 2022        4 hours 40 mins
+Attended group meeting
+Tried working more on menu stuff. Tried to connect the game to the play button on the menu screen, but ran into errors and the game crashed.
+
+
+June 13, 2022        4 hours
+Worked with Ying on making the GameScreen actually generate the game. Menu's play button now connects to the game itself. Added code to the LevelBusiness class. Added screen classes on the README.md file. Got rid of code that is not necessary for the menu and cleaned up a little. Tried to do enums and fix a bit more code for the menus including endscreen. Have some debugging to do.
+
+
+June 14, 2022        1 hour 30 mins
+Tidy code for the menu a bit more. Get rid of unnecessary stuff. Implement enum for the screen switching (buttons).
+
+
+June 15, 2022        6 hours 30 mins
+Attended group meeting
+Fixed the screen code to get rid of duplicate code, renamed variables, added privates and finals for the variables where necessary. Added ScreenSetter class to keep the duplicate code for the screen. Added TheEnd background for the EndScreen and updated button. Compiled Logs, updated README.md.
+
+
+June 16, 2022        4 hours
+Attended group meeting
+Added missing blurbs to the README.md, fixed the developer tasks and added it to the logs
+
+
+June 28, 2022        40 mins
+Attending group meeting
+
+
+July 1, 2022        2 hours
+Looked for assets related to sci-fi. Got lots of ideas for assets that can be partially used in the project, but not a lot. It was especially tough finding sci-fi menu ui. 
+
+
+July 2, 2022        2 hours
+Attended group meeting. Could not finalize on assets as two group members were missing at the meeting. Had a talk with Ying and Ryan on possibly going with a fantasy theme instead. To discuss with the other members Found more fantasy assets.
+Looked into how to implement ui on Libgdx. Found source on Scene2D and looked up guides on it.
+
+
+July 3, 2022        1 hour 30 mins
+Pair programmed with Ying to create instructions on the menu screen. The instructions screen has basic information of how to play and beat the game along with a button to go back to the main menu. Will need to clean up the code, add information to the README.md and add title to the how to play game. Will meet with Ying on Tuesday to start UIs.
+
+
+July 2, 2022        30 mins
+Attended short group meeting to discuss assets.
+
+
+July 5, 2022        4 hours 30 mins
+Pair programmed with Ying to create a health bar on the game screen. Currently in text format. Still needs fixing and debugging. Currently having issues with health bar drawing causing a game lag.
+Attended group meeting.
+Sent Professor Braico email requesting meeting on questions as a Team. Fixed the instruction screen a bit more, mostly with coding style, getting rid of magic numbers, adjusting layout.
+
+
+July 7, 2022        2 hours 30 mins
+Met Professor Braico with Ying (Tristan had to leave after waiting) about questions. See group meeting notes.
+
+
+Got the settings button added to the game screen and fixed the stage draw causing the game to lag.
+
+
+Pair programmed with Ying to work on the rest of the settings button (UI), fixed custom fonts not displaying and working correctly. We chose a custom font for the game.
+Still need to change fonts into the same as the instruction screen, and the settings button causes the player character to move on screen. Also need to update README.md, comments, coding style on screens and change the splash screens to the new fantasy theme.
+
+
+July 7, 2022 - July 8, 2022        6 hours
+Cleaned up code and made private methods for the buttons in the screen classes.
+Fixed a bug with the group Pause (settings button in the GameScreen) where the group was not disappearing in the settings menu if the settings button was clicked again.
+Added GameOver screen.
+Tried to fix the bug with UI button click also overlapping with playerTouchInput. Could not fix it, but found a possible solution with the inputmultiplexer (sets priority in the input). Need to testout tomorrow.
+Looked up how to split assets in one png (spritesheet) to get a specific asset.  Not really sure how it works. To discuss with Ying about it.
+
+
+July 8, 2022        1 hour
+Experimented more with the UI button click and playerTouchInput. Still not working :( Will discuss with team on this during meeting tomorrow.
+
+
+July 9, 2022        10 hours
+Attended group meeting
+Refactored the Actor code, split up logic into Movement and Actor into object.
+Pair programmed with Ying to fix more bugs in our code and refactored several classes in our code to match the architecture (split logic and object).
+
+
+July 10, 2022        2 hours
+Found music assets and added it to the game!
+Attended group meeting
+
+
+July 11, 2022        6 hours
+Attended group meeting
+
+
+July 12, 2022        3 hours
+Added more tests on Level Generation and cleaned up code.
+Submitted project
+
+
+July 16, 2022        1 hour
+Attended group meeting. Fixed a little bit of menu code
+
+
+July 17, 2022        5 hours
+Added input adapters to fix overlapping input bug from iteration 2
+Fixed some coding styles, a few tests missing from iteration 2 added
+Starting cleaning up the Screen code
+
+
+July 18, 2022        1 hour
+Fixed the code that was causing game to crash
+Worked a little more on cleaning up Screen code and adding tests
+
+
+July 19, 2022        2 hours
+Finished fixing Screen code
+Changed current pause and music button textures
+
+
+July 20, 2022        1 hour
+Added muting and unmuting music in the game settings screen
+Added buttons we will need for this iteration in menu screen and a credits screen
+
+
+July 21, 2022        20 mins
+Attended group meeting
+
+
+July 23, 2022        7 hours
+Met with Ying to work on the UI and menu stuff
+Setup game saving, new game and continue buttons, and credits screen
+Added difficulty buttons, save game.
+Changed difficulty buttons and main menu layout to something more visually pleasing.
+
+
+July 24, 2022        8 hours
+Added storyline popup in gameScreen, level indicator, HUD, connected difficulty buttons with database, fixed game setting layout and added sound button (not just music).
+Fixed music and sound button bugs, fixed bug where continuing a game after save caused health to double..
+
+
+July 25, 2022        3 hours
+Added the sound effects to the game. Started debugging the problem with the sound effect, worked initially but exiting the game and reopening causes the sound to disappear. Suspecting it is something to do with the variables for sound being static and we are disposing of the sound. (Something to do with android lifecycle)
+
+
+July 26, 2022        11 hours 30 mins
+Attended group meeting
+Fixed the sound bug (with Tristan’s help)!
+Changed a few assets (updated endscreen visuals and storyline popup)
+Added extra feature changes based on group input
+Added more sound effect
+Worked a little more with Ying after a group meeting to start on integration testing and acceptance testing.
+Updated all the assets used in the README and credits screen. Fixed the credits screen measurements.
+
+
+July 27, 2022        6 hours
+Attended group meeting
+Worked on acceptance testing
+Updating User stories and dev tasks
+Fixed some more bugs in the game (found today)
+Tried to get more testing in
+
+
+July 28, 2022        5 hours
+Attended group meetings and worked on everything together (see group meeting log).
+
+
+
+
+Ryan’s Developer Logs
+
+
+May 30th        1.5 Hours
+Meeting to add development tasks from detailed stories
+ 
+May 31st         3.5 hours
+Meeting - Got libGDX working in Android Studio, basic folder structure created.
+
+
+June 5th        1 Hour
+Updated player movement to handle redirection during a walk cycle, instead of waiting until the final destination was reached.     
+Cleaned up some code, renamed some poor variable names.
+
+
+June 9th        2 Hours
+Discord meeting to talk about project architecture, assigned tasks, refactored project as a group. Arranged new meeting and set priorities for Iteration  
+
+
+June 11th        2 Hours
+Created Object for StubDatabase, working on implementation
+
+
+June 12th        3 Hours
+Meeting  to discuss progress. Merged branches. Testing StubDatabase
+
+
+June 13th        3 Hours
+Working on implementing DB and testing.
+It looks like libGDX only supports initializing Textures in the main game, unable to create a Texture object outside of the main game. This means that Textures will not be able to be stored in the database and will need to reside in the asset folder (I'm sure that will be much better for performance anyways).
+Created Stats object within DB to store Character stats.
+- updateStats will add the Character stats if they are not in the database, and update the stats if the character is in the database.
+- working on unit tests for DB 
+
+
+June 15th        6 Hours
+Attended group meeting
+I thought I pushed the StubDatabase to Master the other day, but apparently I did not. Whoops! Might have just updated my branch.
+- Pushed the StubDatabase and StubDatabase unit test suite.
+- Added documentation  for StubDatabase to the ReadMe.
+- Expanded test suite for TileTests
+- Minor reformatting of LevelTests
+- Added “How to play Escape From Icarus” documentation to the readme.
+- Shared screen for collaborative code review. Removed unused imports, unused code, fixed up coding standards.
+- Added final touches to our submission
+- Most of stub database was removed from the submission as it was largely unused in our project at this point
+
+
+June 20th         2 Hours
+* Read and look into the process of adding persistent storage to the project.
+* Read through the sample project code to try to get an idea of how to port the database.
+* Began importing persistent database from sample project to out project. 
+
+
+June 22nd        2 Hours
+* Continued working at importing the database stuff. Not as easy as it should be :(
+
+
+June 28th        40 Minutes
+Attended group meeting, started planning Iteration 2
+Discussed what we are all going to be working on
+
+
+July 2nd         30 Minutes
+* Had a short meeting to discuss project assets
+* Suggested changing the theme of our project to medieval fantasy style as there are a lot more free and fairly complete asset packs available (Was very hard to find much of any scifi assets that would work well together without finding bits and pieces from all over)
+* Was unable to finalize the assets decision as we were missing a couple of group members. 
+
+
+July 5th        2.5 Hours
+Attended team meeting, discussed plans for the week.
+Peer reviewed / merged a new branch.
+
+
+July 6th         2 Hours
+Worked on trying to get the copyDatabaseToDevice methods to work correctly, as they were not copying the data over as expected, the folder remained empty.
+
+
+July 7th         8 Hours
+Scrapped progress importing persistent database from sample project, and restarted importing from scratch due to too many issues.
+* I have run into so many issues getting it working
+* Created SQL script for database SC.script
+* The copyDataToDevice method FINALLY seems to work when booting up the game normally, however when running unit tests the filepath to the database does not appear to be built correctly, causing issues querying as it cannot find the table.
+
+
+
+
+July 8th         3 Hours
+Finally found the file path issue! It turns out that the SC.script file that contains the SQL script must be maintained in two different directories. One for unit tests, and another in an asset folder that gets copied to the Android device’s local storage.
+        -        Linked Database to code, game now runs fully off SQL database
+        -         Made both stub DB and SQL DB implement the same interface.
+        -        Refactored the stub DB, so it now implements the dataAccess object.
+        -        Changed data access from the old stub database to the new SQL database.
+        -         supports swapping between either db type.
+        -         added some tests for the database (Same tests can be run on either DB).
+
+
+July 9th        6 Hours
+Figured out more horrible Database bugs. HSQLDB was complaining about duplicate keys when trying to add all of the game assets in the SC.script file. The solution was to just declare the table schemas and set up the tables in the script, and add the entries into the DB when the DB first starts up. Entries are added to the DB in the .open method.
+* “Fixed” the above mentioned bug (more of a workaround for HSQLDB)
+* Added the rest of the assets we are using at this time to both the Stub and SQL DB
+* Updated DB unit tests to support the new assets
+* Altered the Stats table schema to store speed as a float, as requested by the team.
+
+
+July 10th        7 Hours
+* Merged the new Database changes to master
+* Reviewed the ActorLogic branch which has audio that was added to the game.
+* Updated the “How to Play” information on the Instructions screen to reflect the new changes added to this Iteration.
+* Updated the GameScreen and most other class files to read from the SQL DB. (Still have to handle Player and Enemy sprite due to the current TextureEnum situation. That needs to go first. Enemy constructor also needs to be modified)
+* Converted pretty much all texture calls to come from the DB. (Except characters)
+* Removed the 2 second delay for showing the menu buttons
+* Added an Audio schema to the DB
+* Added Audio paths to the DB for both stub and SQL
+* Updated calls for audio to use DB
+* Added more tests to the DB
+* Added some new grass textures
+* Removed the unused CLI from the project
+* Added support for fetching random texture categories from the DB. Currently only grass is supported. 
+
+
+July 11th        6 Hours :(
+* Fixed the broken WorldTests. World needed to be refactored to be passed the DB type to support Stub in unit tests, and to support SQL DB during gameplay
+* Helped debug and fix unit tests for Enemy type, needed to be updated after major codebase refactor.
+* Updated the READMe structure to reflect then new refactored codebase
+* Helped break down and prioritize last minute tasks before submitting Iteration.
+* Added tests to the DataAccessTests
+* Added content to the stub DB to bring parity between SQL and stub DB
+* Cleaned up master as a group
+
+
+July 12th        2.5 Hours
+* Updated Iteration 2 Dev tasks
+* Added unit tests to Character Tests and Player Tests
+* Updated Character Logic so the Character can no longer be damaged after death (beyond 0 life)
+* Added tests to WorldLogic
+* Added better error handling to worldLogic
+
+
+July 16, 2022        Meeting Lasted: 45 mins
+Attendance: All
+* Went over general timeline for iteration 3
+* Went over remaining dev tasks to accomplish for iteration 3
+* Went over fixes left from iteration 2
+
+
+July 17th  3.5 Hours
+* Updated getRandom method in database to grab a random grass texture, with an 80% chance of grabbing a base grass texture, and a 20% chance of grabbing a random grass decoration. Pretty floors :)
+* Sliced and added the rest of the player textures to the DB for both left and right facing, supporting animations as well
+* Sliced and added the rest of the slime textures to the DB for both left and right facing, supporting animations as well
+* Sliced and added the rest of the skeleton textures to the DB for both left and right facing, supporting animations as well
+
+
+July 22nd         15 Minutes
+* Updated the splashscreen to support the placement of additional buttons
+
+
+July 23rd        6 Hours
+* Character maxLife can be updated during gameplay with persistence now
+* Added a SAVE table to act as a save file, supporting volume level, difficulty, current level and the level seed in stub and SQL
+* Added methods to set and get volume level in stub and SQL
+* Added methods to set and get current level in stub and SQL
+* Added methods to set and get the level seed in stub and SQL
+* Added a newGame method that resets persistence to default values, resets values in stub as well
+* Replaced default libGDX app icon with custom slime icon :)
+* Added a MUTED variable to the DB which acts as a boolean
+* Added getters and setters for MUTED
+
+
+July 24th                 2 Hours
+* Merged the new DB branch to master, resolved a few conflicts
+* Refactored save table in DB to have a mute for both game audio and music audio
+* Added getters and setters to the DB for game and music audio mute
+* Added DB tests
+
+
+July 26th                4 Hours
+* Fixed some DB testing issues that occurred after everyone merged branches
+* Updated the new game method in the DB to reset the current level when the game is reset
+* Added more DB tests for the newly added methods
+
+
+July 27th                5 Hours
+* When the player beats the game, they now continue their save file at level 1, and not the last level they played.
+* Added a player health increase of 2 health points when beating the game. This is reset when the player chooses to start a new game, but will persist if they choose to continue.
+* Updated the README to reflect the changes made in Iteration 3
+* Updated Dev Tasks
+* Reviewed Acceptance Testing script
+
+
+July 28th                 5 Hours
+* Minor updates to the HSQLDB seam testing
+* Went through all of the source code for coding style inconsistencies
+* Fixed DB access in the integration tests
+* Updated Acceptance Testing documentation
+* Attended meeting
+
+
+Tanisha’s Developer Logs
+
+
+May 30, 2022        1 hour 30 mins
+Planned and attended the group meeting for iteration 1.
+
+
+May 31, 2022        2 hours
+Prepped for the meeting and got the sample project and libGDX working in meeting.
+Discussed coding standards, software to use, how to break up tasks, and when to hold the next meeting.
+
+
+June 5, 2022 1 hour
+Prepped and planned for the meeting planning on what;s of iteration 1 and sorting out who will be working on which dev tasks for the project.
+
+
+June 7, 2022 2 hours
+Did some planning for the next meeting, and made suggested edits to the scope of iteration 1 and the project in general.
+Then spent some time getting everything to run on my PC again, before researching assets and planning the room and level classes.
+
+
+June 8, 2022 3 hours
+Spent more time planning, checking out asset websites, and working on how to make sure everything is done on time for iteration 1.
+Later, re-did the 3-layer architecture since it somehow got erased, and created temporary text files so everyone is clear on which types of files go where.
+
+
+June 9, 2022 3 hours and 30 minutes
+spent some time looking at more game assets, set up .gitignore, worked on restructuring the  project. Updated dev tasks with reordering/tests/review/architecture layers attended the meeting today. set up for our next meeting.
+
+
+June 12, 2022  5 hours
+-Researched Assets
+(found a basic one to use and added it and its license to the assets folder)
+Added an enemy to the room
+(created enemy class, and updated MyGame to add the enemy)
+Looked through submitted changes to understand whats happening/why
+Made list of notes for next meeting
+made list of things that should be altered in the code in the coming days
+(added a dev task for myself called 'Maintenance' of tasks to complete)
+
+
+June 14, 2022 2 hours
+Spent time planning the final meetings for the iteration and making notes of everything we need to go over or finish for Iteration 1. Went through code and noted problem areas and things that were not in line with the requirements.Made a to do list of things to complete by the end of Wednesday.
+
+
+June 15, 2022 9 hours
+Went through code making style, formatting and naming changes.
+Went back through code to brainstorm tests and reorganize everything.
+Joined the meeting and worked out what was left to do for the project.
+Worked on attaching the stub database and putting assets into it.
+Also worked to keep code clean and well formatted, and refactored some of the classes.
+Created the AllTests file and connected it to the other created tests.
+Worked together on final fixes, merging and code editing/refactoring so everything fit the standards.
+
+
+June 16, 2022 3 hours
+Went through code looking for style edits and tests to make. Made a list of things that still required some testing and shared with my group. Refactored the stub database and separated out the stats class. Refactored the stats class and hooked the stats and database up to the creation of the player character. Fixed some of the smaller code edits and updated the dev log and README.
+
+
+July 4, 2022 1 hour
+Spent some time going through the project and making notes of changes still needed, tests that could be added, assets needed and how to alter the story to fit our new direction.
+
+
+July 5, 2022        2 1/2 hours
+Prepped for and attended a meeting on planning out iteration 2.
+
+
+July 8, 2022 3 hours 45 mins
+Planned work needed for iteration deliverables, Worked on story and outlined and drew starting area. Figured out how level, room and menu creation works in game. Started implementing the starting level and scenario to add context to the game for the player.
+Worked on the potential boss(es?) for the game.
+
+
+July 9, 2022 7 hours
+Attended the group meeting, worked on user stories, dev tasks, readme for iteration 2.  Further  implemented starting room. Worked on adding room to level stack and updating the gameplay loop. Found and fixed small bugs created when pulling in from the updated master branch.
+
+
+July 10, 2022 4 hours
+Worked on, then shelved the starting room and boss fight rooms for iteration 3, since updating the gameplay loop was taking too long. Joined the group meeting and worked on separating business and object classes, and implementing more unit testing for the project. 
+
+
+July 11, 2022 7 hours
+Worked on refactoring the code and adding unit tests. Participated during the 6 hour group meeting. 
+
+
+July 12, 2022 3 hours
+Worked on adding unit tests and making small code edits.
+July 16, 2022 2 hours
+Made notes, prepped for, and attended the group meeting. Then wrote out a rough draft of the group retrospective.
+
+
+July 21, 2022 2 hours
+Pulled latest, and integrated it into my branch, planned needed tasks, went through code changes, and then prepped for and attended the group meeting.
+
+
+July 22, 2022 8 hours
+Worked on dev tasks: did research, found assets, figured out stat values, went through code to find out how and where I could insert my changes so they would show up in the game.
+
+
+July 24 2022 6 hours
+Many changes were pushed to master. Had to refactor my branches and figure out how to implement stuff I worked on into the new setup.
+
+
+July 26, 2022 7 hours 20 mins
+Added some of my fixed changes to the project’s master branch. Prepped for and attended the group meeting and spent time trying to get espresso to work, researching acceptance testing with libGDX and adding/refactored some tests.
+
+
+July 27, 2022 6 hours
+Refactored and removed dead code from the master branch. Typed out and made edits to the retrospective document. Made some changes to our acceptance testing. Added boss stuff to the game, database, etc.
+
+
+July 28, 2022 5 hours
+Edited retrospective document and posted it to group drive. Edited some of the acceptance tests. Updated my logs in the master log file. Worked on integration tests. Attended the group meeting and edited code style issues.
+
+
+
+
+Tristan’s Developer Logs
+
+
+May 30
+- Partially attended meeting on iteration 1, no wifi :(
+20 mins spent
+
+
+May 31
+- Partially attended meeting, still no wifi :(
+20 mins spent
+
+
+June 1
+- Added tap movement
+- Added Player class
+spent all afternoon (4-5 hours) debugging this cuz the libGDX coordinate system is different for rendering and user interactions :(
+finally wifi tho! :)
+
+
+June 2
+- Added Actor abstract class and made Player class a subclass of Actor
+- Improved rendering process to draw all sprites (needs to eventually be changed to cull offscreen sprites)
+around 2 hours spent
+
+
+June 3
+- Added tile movement support to Actor class
+- Fixed up tap movement (it was constantly polling the last tapped point even if nothing was tapped)
+Spent all afternoon (4-5 hours) debugging again, for similar coordinate system reasons. Weird thing with this graphics library is, the bottom of the screen is Y=0 when rendering, then when a tap event occurs it reads as the top of the screen being Y=0... Creates some fun tracking issues.
+TODO: Probably need to somehow change the viewport coordinates so it doesnt need a conversion anytime you want to do something with a tap event.
+
+
+June 4
+- Added camera movement to player
+- Made the screen coordinate conversion right at the beginning of the touch detection so no conversions are needed in other functions that use it.
+spent about 2 hours.
+
+
+June 5
+- Slight touchup to Actor class and better centered camera to player
+- Added tilemap and basic collision (still has some overdraw artifacts with movement)
+- Made a simple grass texture for testing
+- Attended meeting
+about 2 hours spent in total, including meeting.
+
+
+June 7
+- Added bounds checking to tilemap
+- Added walls and basic wall texture for testing
+- Fixed movement artifacting
+- Minor touch ups to rendering code for culling sprites and using less memory
+- Fixed issue with tiles making redundant Sprites, saving memory
+- added README with documentation for current methods and classes
+spent about 2 hours
+
+
+June 8
+- Added Item class as an outline for in game item stats
+- Added teleporting to Actor class
+- Updated readme
+Spent about 90 minutes
+
+
+June 9
+- Changed Actor setDestination(x,y) to be in tile coordinates instead of pixel coordinates.
+- Added ItemType enum
+- Added Character class
+- Refactored class files
+- Updated readme
+- Attended meeting
+spent about 3 hours and 20 mins in total
+
+
+June 10
+- Added Movement class
+- Updated readme
+Spent about 20 minutes
+
+
+June 11
+spent about 3 hours trying to add back unit tests folder :(
+
+
+June 12
+- Finally got unit tests working! GDX doesnt initialize a window during unit testing so I needed to create a dummy class that would override some API calls that would throw an exception otherwise. Also assumed a static 60fps for movement tests, since there is no actual window to measure frametime delta.
+- Made some unit tests for Movement
+- Refactored teleportation into Movement from Actor class.
+- Added death detection, so if something onscreen dies it is removed from the game.
+- updated README
+- Attended meeting
+- Fixed naming conflicts
+- helped debug a ton of merge conflicts
+Spent about 6 hours total.
+
+
+June 13
+- Added more test cases
+- Added attack functionality to Character class
+- slight modifications to movement code to comply with coding standards
+spent about an hour.
+
+
+June 14
+- Fixed and refactored rendering and level code
+- Added World class
+- Added level unit tests
+Spent about 5 hours.
+
+
+June 15
+- Merged 2 branches to master since any further modifications may cause conflicts
+- Added attacking
+- Added level traversal
+- Refactored Movement back into Actor
+- Fixed unit tests
+- Attended meeting
+- Updated readme
+- Fixed out of bounds code
+- Added unit tests
+- Fixed numerous bugs with levels
+- Nuked codebase for final submission
+spent about 8 hours.
+
+
+June 16
+- Removed TestSprite and refactored
+- cleaned up code and refactored rendering methods and tile/level/world/character
+spent about 2 hours
+
+
+June 27
+- Cleaned up some code
+- Removed demo code
+- Added back some "unused" code that will be needed later
+
+
+spent about 20 mins
+
+
+June 28
+- attended meeting
+- added room/hallway carving functionality to level class
+- polished melee combat (now player needs to explicitly tap on enemy to attack instead of bump into them on their way to a destination)
+- fixed up unit tests
+- added back more "unused" code for later
+- added random level generation (just basic rooms and hallways)
+
+
+spent about 4 hours.
+
+
+June 29
+- polished random levels
+- added proper start/end points to level generation
+- made levels connect better (guaranteed to be fully connected)
+- fixed path finding for making corrections when stuck
+- added World unit tests
+- refactored World class (moved junk outside of the constructor)
+- put camera in the presentation layer instead of business
+- added more general unit tests
+- added to readme
+
+
+spent about 4 hours and 30 mins.
+
+
+June 30
+- Refactored code
+- Improved random level generation
+- slight touchups to code
+- attended meeting
+- Found the first bug! Very crazy edge case where if you tap to move in nearly the same frame as you enter the next level, it will move in the next level as if you where in the previous level (basically walking through walls) but then it bugs out more after it reaches the destination and deletes the player.
+
+
+spent about 3 hours and 30 mins.
+
+
+July 5
+- Added more movement unit tests
+- Fixed some level unit tests
+- Optimized path redirects for movement
+- Attended meeting
+- Fixed merge conflicts (merged to master)
+- Fixed memory leaks and general cleanup in health label
+
+
+Spent about 2 hours and 30 mins.
+
+
+July 7
+- Added healthbars
+- Added seeded level generation
+- Added/modified more textures and more fancy level generation for applying textures
+- Tried debugging SQL db with Ryan
+- Wrote AI for enemy
+
+
+Spent about 5 hours.
+
+
+July 8
+- Added corner textures to levels and assets
+- Modified level tile snapping to include corners
+- Added Enemy unit tests
+- Tweaked AI and made wandering movement seed based
+- Added end level door texture
+- Fixed bugs with wall tile snapping
+- Fixed tile scaling and speed to match tile size
+- Resolved merge conflicts with database
+
+
+Spent about 5 hours and 30 mins.
+
+
+July 9
+- Merged branches and resolved conflicts
+- Attended meeting
+- Fixed pause UI bug
+- Tweaked level generation params
+- Fixed screen inputs in refactor
+- Added game over routine
+- Fixed stack overflow bug
+- Fixed Actor unit tests
+- Fixed Actor desync
+- Added GameLogic
+
+
+Spent about 4 hours and 30 mins.
+
+
+
+
+July 11
+- Fixed pause wall walking bug
+- Partially attended meeting
+- Debugged world tests
+- Attempted to refactor Movement and Actor
+- Fixed unexpected placement behavior in Movement
+- Added Enemy unit tests
+
+
+Spent about 1 hour.
+
+
+July 16
+
+
+- Fixed improperly "refactored" Actor/Movement code from last iteration.
+- Attended meeting.
+
+
+Spent 2 hours.
+
+
+July 17
+
+
+- Added more functionality to Actor from Movement.
+- Added map decorations.
+- Resized textures
+- Added new textures to database.
+- Added random decorations to level generation.
+- Tuned level generation
+- Added new enemy type
+- Touched up some textures
+
+
+Spent 6 hours.
+
+
+July 19
+
+
+- Merged branch
+- Fixed minor bug with pause tilemap correction.
+- Play testing
+
+
+Spent 40 minutes.
+
+
+July 21
+
+
+- Added health pickups
+- Collision refactor into game logic
+- Tweaked health pickups
+- Made Player class get all stats from DB
+- Added cooldowns to enemy attacks (so they dont attack each frame)
+- Modified DB to include extra texture and stats.
+- Refactored some tests
+
+
+Spent 3 hours.
+
+
+July 25
+
+
+- Refactored level generation, collisions, Character and subclasses.
+
+
+Spent 2 hours.
+
+
+July 26
+
+
+- Refactored code
+- Fixed sound effect issues
+- Merged branches and cleanup old stuff
+- Attended meeting
+- Fixed room door bug
+- Added unit tests
+- Fixed font bug
+
+
+Spent 4 hours.
+
+
+July 27
+
+
+- Added Boss
+- Fixed level unit tests
+- Fixed level generation bugs
+- Modified boss texture
+- Attended meeting
+- Merged branches and cleanup
+- Removed unused assets
+- Fixed db unit tests
+- Added proper splash screen
+- Added HealthPickup tests
+
+
+Spent 3 hours and 30 mins.
+
+
+July 28
+
+
+- Added integration tests
+- Fixed unit test bugs
+- Fixed some stub db entries to match sql db
+- Tried to fix icon
+- Attended meeting
+Spent 2 hours and 30 mins.
+
+
+
+
+Ying’s Developer Logs
+
+
+May 30th        1 hour 30 mins
+Attended group meeting
+
+
+May 31st        3 hours 30 mins
+Attended group meeting
+
+
+June 5th        30 mins 
+Attended group meeting
+
+
+June 6th        1 hour 30 mins
+Learning/Figuring out how tile movement works. Conversed with Tristan how to implement movement better.
+
+
+June 7th        1 hour
+Looked for assets and spent more time on looking up movement. Also asked Tristan for more input and advice on movement.
+
+
+June 9th        2 hours 18 mins
+Attended group meeting
+
+
+June 11        3 hours
+Started creating Menu Screen, also researching menu screen implementation styles. Conversed with Agape as we partnered up on the menu/presentation stuff.
+
+
+June 12th        2 hours
+Working on Menu Screen, adding code and trying to optimize it.
+
+
+June 12th        3 hours
+Attended group meeting
+
+
+June 13th        2 Hours
+Connected start button with game screen - not fully finished. Called with Agape, and tackled this problem together. Finished majority of the menu stuff for the game. Added main buttons and connected it to the main game.
+
+
+June 14th        2 hours 20 mins
+Attended group meeting
+Refactored some code to make it more logical, added TODOs and began adding some tests in.
+
+
+June 15th        6:22 hours
+Attended group meeting
+Fixed more bugs in our game, added final touches, reviewed all our logic, and checked for codebase for consistency. Added a new asset. Added to README. Removed duplicate code. Went over as a group to CHECK everything.
+
+
+June 28th    40 minutes
+Attending the meeting, I started planning for Iteration 2.
+
+
+July 2th      30 Minutes
+Assets meeting, completing finding all the assets, could not finalize on which assets we were going to choose, since 2 members weren’t at the meeting.
+
+
+July 3th 1:30 Minutes
+Pair programmed with Agape to create instructions on the menu screen. Instructions page is basic set of text to tell people how to play the game.
+
+
+July 5th 1:30 Minutes
+Pair programmed with Agape to create the health bar on the game screen. Got it somewhat working but still need fixing and debugging.
+
+
+July 5th, 2:30 Minutes
+Team meeting, went over plan for the week. Wrote a document to argue and ask questions with Professor Braico. Fixed code and refactored to match style consistently.
+
+
+July 7th, 1:30 Minutes
+Pair programmed with Agape. Fixed custom fonts not displaying and working correctly. Chose a custom font, need to change fonts into everything else. Started working on the Pause Menu / In game settings button.
+
+
+July 8th, 2 hours
+Tried to figure out more assets in the setting/pause button. Trying to select a certain portion of an image for each button.
+
+
+July 9th, 10 hours
+Group meeting to discuss problems and fix code. Pair programmed with Agape to fix more bugs in our codebase and refactored many classes in our codebase to match the architecture.
+
+
+July 10th, 3 hours
+Refactored more code to fix problems with logic being presentation layer/domain object. Worked with group to help decide to fix this.
+
+
+July 11th, 6 hours
+Group meeting to finalize more unit tests.
+
+
+July 16th 1 Hour
+Group meeting to discuss what we need to do for iteration 3
+
+
+July 19th 2 hours
+Worked on UI menus
+
+
+July 21 1 Hour
+Standup meeting with everyone going stuff and fixing other things in our program
+
+
+July 23 2 Hours
+Adding and fixing other features in UI
+
+
+July 24 3 Hours
+Adding more UI features and fixing bugs in the UI menu.
+
+
+July 26th 5 Hours
+Group meeting to what we thought was to finish acceptance testing, but discovered that espresso only supports native UI elements, therefore we had to come up with a new plan on what to do. Eventually we settled on emailing Braico to discuss this problem. We also went over some integration tests and database fixing/tests. Finalized all our features and now we are focused on tests and such.
+
+
+July 27th 7 Hours
+Finished rough acceptance script. Updated user logs. Figured out a plan to finish everything. Added input for integration tests. Group meeting to help each other finish everyone's tasks and merge into master.
+
+
+July 28th 4 hours
+Finished acceptance testing, with final checks. Went over the codebase to check for consistent coding standards and styles.
+
+
+
+
+Developer Tasks
+
+
+While we all worked together on a great deal of the project the dev tasks were originally assigned as follows.
+
+
+Completed Dev Tasks:
+
+
+Remove the switch case in GameScreen
+Assigned to Tristan
+Save the texture key in each object instead
+Priority: Medium                Estimated Cost: 2 Hours                Actual Cost: 30 mins
+
+
+Movement to abstract class
+Assigned to Tristan
+Refactor movement to be an abstract class
+Priority: High                        Estimated Cost: 4 Hours                Actual Cost: 3 hours
+
+
+Add tests not implemented in iteration 2 (on google docs)
+Assigned to Agape
+Add the tests that were added to the testing ideas google doc
+Priority: High                        Estimated Cost: 4 Hours                Actual Cost: 4 hours
+
+
+Health pickups
+Assigned to Tristan
+Add health pickups to the game
+Priority: High                        Estimated Cost: 4 Hours                Actual Cost: 1 hour
+
+
+Credits Screen
+Assigned to Ying
+Add a credits page to the main menu that displays the developers who created the project and gives credit to the assets used in the game.
+Priority: Medium                        Estimated Cost: 2 Hours                Actual Cost: 2 hours
+
+
+Pause Screen layout
+Assigned to Agape
+Change the pause screen layout and add transparent background and panel to make the pause more obvious
+Priority: Low                Estimated Cost: 1 Hour                Actual Cost: 1 Hour
+
+
+Music / Sound Mute Settings
+Assigned to Agape and Ying
+Add Music and Sound mute options in the menu screen to toggle audio.
+Priority: Medium                Estimated Cost: 3 Hours                Actual Cost: 4 Hours
+
+
+Sound Effects
+Assigned to Agape
+Add sound effects for various interactions in the game.
+Priority: Low                        Estimated Cost: 2 Hours                Actual Cost: 6 Hours
+
+
+Storyline Screen on New Game
+Assigned to Agape
+Add a storyline pop-up to the game screen that displays when starting a new game to give the player some back story and the goal of the game.
+Priority: Low                        Estimated Cost: 2 Hours                Actual Cost: 3 Hours
+
+
+HUD for health and current level
+Assigned to Agape and Ying
+Create a Heads Up Display to show the player’s current health (with number) and which level they are currently on.
+Priority: High                        Estimated Cost: 4 Hours                Actual Cost: 4 Hours
+
+
+Game Difficulties
+Assigned to Agape
+What the amount of levels needs to complete the game, and increase enemy health to add support for additional difficulties.
+Priority: High                        Estimated Cost: 2 Hours                Actual Cost: 1 Hour
+
+
+New Game Difficulty Selection Menu
+Assigned to Agape
+When starting a new game, prompt the player to choose a difficulty option.
+Priority: High                        Estimated Cost: 2 Hours                Actual Cost: 2 Hours
+
+
+Save Game Support
+Assigned to Ryan
+Add a save table to support saving the game, such as the current level, max health and difficulty settings.
+Priority: High                        Estimated Cost: 2 Hours                Actual Cost: 4 Hours
+
+
+New Game Support
+Assigned to Ryan
+Add support for resetting the Database to default values to wipe any save data.
+Priority: High                        Estimated Cost: 2 Hours                Actual Cost: 2 Hours
+
+
+Persistent Music / Game Audio Toggles
+Assigned to Ryan
+Add persistence volume toggles to the database so the player can choose to mute music and game audio.
+Priority: Medium                Estimated Cost: 1 Hour                Actual Cost: 1 Hour
+
+
+Multiple Skeleton Enemy Type
+Assigned to Tristan
+Add a skeleton enemy type to the game.
+Priority: High                        Estimated Cost: 2 Hours                Actual Cost: 1 hour
+
+
+Database Testing
+Assigned to Ryan
+Add support for the persistence tests to run against both Stub and SQL. Finish adding tests for new DB methods.
+Priority: High                        Estimated Cost: 4 Hours                Actual Cost: 6 Hours
+
+
+Persistent Volume Toggles
+Assigned to Ryan
+Add persistence volume toggles to the database so the player can choose to set music and game audio levels.
+Priority: Medium                Estimated Cost: 1 Hour                Actual Cost: 1 Hour
+
+
+Add Pretty Grass Textures to Database
+Assigned to Ryan
+Add additional grass texture to the database to add variety such as flowers and rocks
+Priority: Medium                Estimated Cost: 2 Hour                Actual Cost: 2 Hours
+
+
+Add Clutter Decoration Textures
+Assigned to Tristan
+Add textures for various obstacles to be placed around the map.
+Priority: Medium                Estimated Cost: 2 Hour                Actual Cost: 1 Hour
+
+
+Implement Pretty Grass
+Assigned to Tristan
+Refactor the level method to support assigning different textures per floor tile to add support for pretty grass floors
+Priority: Medium                Estimated Cost: 2 Hour                Actual Cost: 2 Hours
+
+
+Bosses
+Assigned to Tanisha
+Add bosses to the game that guard the door to the next level
+Priority: High                Estimated Cost: 4 Hour                Actual Cost: 5 Hour
+
+
+Increase Max Health when Beating the Game
+Assigned to Ryan
+Increase the player’s maximum health by 2 when they beat the game..
+Priority: Low                Estimated Cost: 1 Hour                Actual Cost: 30 Minutes
+
+
+Remove Continue button if no game
+Assigned to Agape
+Make the continue button not visible if there were no games started.
+Priority: Low                Estimated Cost: 1 Hour                Actual Cost: 30 Minutes
+
+
+Change endscreen and update main menu layout
+Assigned to Agape
+Changed the endscreen to an artwork that is more visually pleasing. Added new buttons to the main menu and changed the layout.
+Priority: Low                Estimated Cost: 1 Hour                Actual Cost: 30 Minutes
+
+
+Boost popup
+Assigned to Agape
+Make a popup notification on endscreen about the permanent increase in health boost
+Priority: Low                Estimated Cost: 1 Hour                Actual Cost: 1 Hour
+
+
+Acceptance Testing Document
+Assigned to Ying and Agape
+Write an acceptance testing script
+Priority: High                Estimated Cost: 2 Hours                Actual Cost: 18 Hours
+
+
+Integration Testing
+Assigned to Tanisha, Ryan, Tristan, Ying and Agape
+Write the Integration tests for the game
+Priority: High                Estimated Cost: 7 Hours                Actual Cost: 6 hours
